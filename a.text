@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;////////////////////
+  }
+  //전체정렬
+
+  .container{
+    width:1140px;
+    margin:0 auto;
+  }
+  //테두리에서 띄어짐, 공백생성
+
+  header{
+    position:fixed;
+    color:white;
+    top:0;
+    z-index:1;
+    width:100%;
+    padding:1rem;
+  }
+  //헤더고정
+
+
+   header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+  }
+//about, book, notice 오른쪽정렬 카툰공감은 왼.정렬
+
+
+ header nav ul{
+    display:flex;
+  }
+..about, book, notice 일자정렬
+
+
+header nav ul li{
+    padding:10px;
+  }
+  //about, book, notice 간의 간격''
+
+
+  section{
+    font-family:'Poppins', sans-serif;
+    padding:5rem 0; ///section 간의 공백.
+  }
+

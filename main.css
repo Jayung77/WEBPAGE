@@ -1,0 +1,145 @@
+*{
+    box-sizing:border-box;  
+    margin:0;
+    padding:0;
+
+  }
+
+  header{
+    position:fixed;
+    color:rgb(34, 135, 9);
+    top:0;
+    z-index:1;
+    width:100%;
+    padding:1rem;
+  }
+
+  header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+  }
+  header nav ul{
+    display:flex;
+  }
+  header nav ul li{
+    padding:10px;
+  }
+
+  header button{
+    background: transparent;
+    border:0;
+    cursor: pointer;
+    color:rgb(0, 0, 0); 
+    font-size: 20px;
+  }
+  header h1 button{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  /* End header.css */
+/* main.css */
+main{
+    width:100%;
+    height:100vh;
+    color:white;
+    background:linear-gradient(rgba(#f8f8f8), rgba(#4c2727)), url('one.jpg') center center;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:right;
+  }
+  main h2{
+    font-size:3.5rem;
+    margin:2rem 0;
+    letter-spacing:3px;
+    font-family:'Varela Round', sans-serif; /* 웹 폰트 추가 */
+}
+/* about_me.css */
+section{
+    font-family:'Poppins', sans-serif;
+    padding:5rem 0;
+  }
+
+section:nth-child(2n){
+    background-color:#f8f8f8;
+}
+section .title{
+    margin-bottom:30rem;
+  }
+
+  section .title h2{
+    font-size:2rem; 
+    text-align: center;
+  }
+  
+
+  section .title p{
+    font-size:1.15rem;
+  }
+  section .store_pic::after{
+    content:"";
+    clear:both;
+    display:block;
+    left: 0%;
+  }
+
+.about_content{
+    margin-left: 80%;
+    top: 72rem;
+  }
+
+  #img1{
+    top: 12%;
+    height: 800px;
+    left: 0px;
+    width: 1685px;
+    position:absolute;}
+
+#img2{
+    left: 40px;
+    top: 72rem;
+    height: 700px;
+
+    position:absolute;}
+
+
+
+
+
+
+
+.btn_menu{
+    position: relative;
+    left: 370px;
+    top: 35px;
+    color: rgb(0, 0, 0);
+    border: 300px;
+    font-size: 25px;
+    margin-right: 70px;
+    border-style: none;
+    font-weight: bold;
+}
+#logo{
+    position: relative;
+    left: 230px;
+    top: 38px;
+    color: rgb(42, 214, 42);
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+    
+
+#plus_info{
+    top: 850px;
+    position: relative;
+    
+}
+.all{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+}
